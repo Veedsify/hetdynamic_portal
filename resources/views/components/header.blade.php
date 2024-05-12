@@ -7,7 +7,6 @@
         <div class="header-content-left">
 
 
-
             <!-- Start::header-element -->
             <div class="header-element">
                 <!-- Start::header-link -->
@@ -18,6 +17,11 @@
 
         </div>
         <!-- End::header-content-left -->
+
+        <a href="index.html" class="header-logo  d-lg-none d-flex align-items-center justify-content-center " style="width: 40px">
+            <img src="{{ asset('assets/images/brand-logos/desktop-white.png')}}" alt="logo"  class="w-100">
+
+        </a>
 
         <!-- Start::header-content-right -->
         <div class="header-content-right">
@@ -30,17 +34,17 @@
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                     <div class="d-flex align-items-center">
                         <div class="me-sm-2 me-0">
-                            <img src="../assets/images/faces/9.jpg" alt="img" width="32" height="32" class="rounded-circle">
+                            <img src="{{ asset('assets/images/faces/9.jpg')}}" alt="img" width="32" height="32" class="rounded-circle">
                         </div>
                         <div class="d-sm-block d-none">
-                            <p class="fw-semibold mb-0 lh-1">Json Taylor</p>
+                            <p class="fw-semibold mb-0 lh-1">Emmanuel Iwok</p>
                             <span class="op-7 fw-normal d-block fs-11">Web Designer</span>
                         </div>
                     </div>
                 </a>
                 <!-- End::header-link|dropdown-toggle -->
                 <ul class="main-header-dropdown dropdown-menu pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end" aria-labelledby="mainHeaderProfile">
-                    <li><a class="dropdown-item d-flex" href="profile.html"><i class="ti ti-user-circle fs-18 me-2 op-7"></i>Profile</a></li>
+                    <li><a class="dropdown-item d-flex" href="/"><i class="ti ti-user-circle fs-18 me-2 op-7"></i>Profile</a></li>
 
                     <li><a class="dropdown-item d-flex" href="sign-in-cover.html"><i class="ti ti-logout fs-18 me-2 op-7"></i>Log Out</a></li>
                 </ul>
