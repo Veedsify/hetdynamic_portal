@@ -3,11 +3,9 @@
 
 
 
-
-
     <!-- Loader -->
     <div id="loader">
-        <img src="../assets/images/media/loader.svg" alt="">
+        <img src="{{ asset('assets/images/media/loader.svg')}}" alt="">
     </div>
     <!-- Loader -->
 
@@ -21,7 +19,7 @@
 
         <!-- Start::app-content -->
         <div class="main-content app-content">
-            <div class="container-fluid">
+            <div class="container">
 
                 <!-- Page Header -->
                 <div class="d-md-flex d-block align-items-center justify-content-between my-4 page-header-breadcrumb">
@@ -38,14 +36,14 @@
                 <!-- Page Header Close -->
 
                 <!-- Start::row-1 -->
-                <div class="row">
-                    <div class="col-xxl-4 col-xl-12">
+                <div class="row ">
+                    <div class=" col-xl-12">
                         <div class="card custom-card overflow-hidden">
                             <div class="card-body p-0">
                                 <div class="d-sm-flex align-items-center p-4 border-bottom-0 main-profile-cover">
                                     <div>
                                         <span class="avatar avatar-xxl avatar-rounded online me-3">
-                                            <img src="../assets/images/faces/9.jpg" alt="">
+                                            <img src="{{ asset('assets/images/faces/9.jpg')}}" alt="">
                                         </span>
                                     </div>
                                     <div class="flex-fill main-profile-info">
