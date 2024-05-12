@@ -7,13 +7,13 @@
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> YNEX - Blazor Server Bootstrap 5 Premium Admin & Dashboard Template </title>
+    <title> Hetdynamic </title>
     <meta name="Description" content="Bootstrap Responsive Admin Web Dashboard Template">
     <meta name="Author" content="Spruko Technologies Private Limited">
 	<meta name="keywords" content="blazor bootstrap, c# blazor, admin panel, blazor c#, template dashboard, admin, bootstrap admin template, blazor, blazorbootstrap, bootstrap 5 templates, dashboard, dashboard template bootstrap, admin dashboard bootstrap.">
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.ico')}}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/images/brand-logos/desktop-white.png')}}" type="image/x-icon">
 
     <!-- Choices JS -->
     <script src="{{ asset('assets/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>

@@ -68,9 +68,9 @@ typography
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 :root {
   --body-bg-rgb:	240, 241, 247;
-  --primary-rgb:	0, 0, 0;
+  --primary-rgb:	132, 90, 223;
   --secondary-rgb:	35, 183, 229;
-  --warning-rgb:	245, 1  84, 73;
+  --warning-rgb:	245, 184, 73;
   --info-rgb:	73, 182, 245;
   --success-rgb:	38, 191, 148;
   --danger-rgb:	230, 83, 60;
