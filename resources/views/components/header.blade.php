@@ -18,7 +18,7 @@
         </div>
         <!-- End::header-content-left -->
 
-        <a href="index.html" class="header-logo  d-lg-none d-flex align-items-center justify-content-center " style="width: 40px">
+        <a href="/" class="header-logo  d-lg-none d-flex align-items-center justify-content-center " style="width: 40px">
             <img src="{{ asset('assets/images/brand-logos/desktop-white.png')}}" alt="logo"  class="w-100">
 
         </a>

@@ -9,7 +9,7 @@
     </div>
     <!-- Loader -->
 
-    <div class="page">
+    <div class="page ">
         <!-- app-header -->
         <x-header />
         <!-- /app-header -->

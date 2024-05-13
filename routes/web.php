@@ -4,8 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\CheckUserIsAdmin;
 
 Route::get('/', function () {
-    return view('pages.profile');
+    return view('pages.dashboard');
 });
+
+Route::get('/profile', function () {
+    return view('pages.profile');
+})->name('profile');
 
 Route::get('/universities', function () {
     return view('pages.universities');
@@ -22,3 +26,11 @@ Route::get('/blog', function () {
 Route::get('/application', function () {
     return view('pages.application');
 })->name('application');
+
+Route::get('/application/{details}', function () {
+    return view('pages.application-details');
+})->name('application.details');
+
+Route::get('/document', function () {
+    return view('pages.document');
+})->name('document');
