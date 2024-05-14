@@ -16,7 +16,7 @@
                 <!-- Start::slide -->
                 <li class="slide ">
                     <a href="/" class="side-menu__item ">
-                        <i class="bx bx-file-blank side-menu__icon"></i>
+                        <i class="bx bxs-home side-menu__icon"></i>
                         Dashbooard
                     </a>
 
@@ -26,7 +26,7 @@
                 <!-- Start::slide -->
                 <li class="slide ">
                     <a href="{{ route('universities') }}" class="side-menu__item">
-                        <i class="bx bx-task side-menu__icon"></i>
+                        <i class="bx bxs-graduation side-menu__icon"></i>
                         Universites
                     </a>
                                 </li>
@@ -35,19 +35,19 @@
                 <!-- Start::slide -->
                 <li class="slide ">
                     <a href="{{ route('services') }}" class="side-menu__item">
-                        <i class="bx bx-fingerprint side-menu__icon"></i>
+                        <i class="bx bxs-book-bookmark side-menu__icon"></i>
                         Services
                     </a>
 
                 </li>
                 <!-- End::slide -->
 
-            
+
                 <!-- End::slide -->
                                 <!-- Start::slide -->
                 <li class="slide ">
                     <a href="{{route('document')}}" class="side-menu__item">
-                        <i class="bx bx-error side-menu__icon"></i>
+                        <i class="bx bx-book-open side-menu__icon"></i>
                         My document
                     </a>
 
@@ -57,7 +57,7 @@
                     <!-- Start::slide -->
                 <li class="slide ">
                     <a href="{{route('blog')}}" class="side-menu__item">
-                        <i class="bx bx-error side-menu__icon"></i>
+                        <i class="bx bx-book-bookmark side-menu__icon"></i>
                         Blog
                     </a>
 
@@ -65,8 +65,8 @@
                 <!-- Start::slide -->
                 <li class="slide ">
                     <a href="{{route('application')}}" class="side-menu__item">
-                        <i class="bx bx-error side-menu__icon"></i>
-                        All Aplication
+                        <i class="bx bxs-dashboard side-menu__icon"></i>
+                        All Application
                     </a>
 
                 </li>
@@ -77,7 +77,7 @@
           <!-- Start::slide -->
                 <li class="slide ">
                     <a href="{{route(('profile'))}}" class="side-menu__item ">
-                        <i class="bx bx-file-blank side-menu__icon"></i>
+                        <i class="bx bx-user-circle side-menu__icon"></i>
                         Profile
                     </a>
 

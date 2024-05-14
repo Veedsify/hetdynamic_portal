@@ -26,9 +26,10 @@
                     <h1 class="page-title fw-semibold fs-18 mb-0">Profile</h1>
                     <div class="ms-md-1 ms-0">
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item"><a href="javascript:void(0);">Pages</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                            <ol class="breadcrumb align-items-center mb-0">
+                                <li ><a href="javascript:void(0);" class="text-primary">Home</a></li>
+                                <i class="bx bx-chevron-right fs-18"></i>
+                                <li class=" " aria-current="page">Profile</li>
                             </ol>
                         </nav>
                     </div>
@@ -68,25 +69,25 @@
                                     <div class="text-muted p-2 py-3">
                                         <p class="mb-2">
                                             <span class="avatar avatar-sm avatar-rounded me-2 bg-light text-muted">
-                                                <i class="ri-mail-line align-middle fs-14"></i>
+                                                <i class="bx bx-user align-middle fs-14"></i>
                                             </span>
                                             Emmanuel Iwok
                                         </p>
                                         <p class="mb-2">
                                             <span class="avatar avatar-sm avatar-rounded me-2 bg-light text-muted">
-                                                <i class="ri-mail-line align-middle fs-14"></i>
+                                                <i class="bx bx-mail-send align-middle fs-14"></i>
                                             </span>
                                             sonyataylor2531@gmail.com
                                         </p>
                                         <p class="mb-2">
                                             <span class="avatar avatar-sm avatar-rounded me-2 bg-light text-muted">
-                                                <i class="ri-phone-line align-middle fs-14"></i>
+                                                <i class="bx bx-phone align-middle fs-14"></i>
                                             </span>
                                             +(555) 555-1234
                                         </p>
                                         <p class="mb-0">
                                             <span class="avatar avatar-sm avatar-rounded me-2 bg-light text-muted">
-                                                <i class="ri-map-pin-line align-middle fs-14"></i>
+                                                <i class="bx bx-location-plus align-middle fs-14"></i>
                                             </span>
                                             MIG-1-11, Monroe Street,
                                         </p>

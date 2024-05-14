@@ -26,9 +26,10 @@
                     <h1 class="page-title fw-semibold fs-18 mb-0">Services</h1>
                     <div class="ms-md-1 ms-0">
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Services</li>
+                            <ol class="breadcrumb align-items-center mb-0">
+                                <li ><a href="javascript:void(0);" class="text-primary">Home</a></li>
+                                <i class="bx bx-chevron-right fs-18"></i>
+                                <li class=" " aria-current="page">Sevices</li>
                             </ol>
                         </nav>
                     </div>

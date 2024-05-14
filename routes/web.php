@@ -34,3 +34,4 @@ Route::get('/application/{details}', function () {
 Route::get('/document', function () {
     return view('pages.document');
 })->name('document');
+

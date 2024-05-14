@@ -38,15 +38,15 @@
                         </div>
                         <div class="d-sm-block d-none">
                             <p class="fw-semibold mb-0 lh-1">Emmanuel Iwok</p>
-                            <span class="op-7 fw-normal d-block fs-11">Web Designer</span>
+                            <span class="op-7 fw-normal d-block fs-11">iwokemmanuel49@gmail.com</span>
                         </div>
                     </div>
                 </a>
                 <!-- End::header-link|dropdown-toggle -->
                 <ul class="main-header-dropdown dropdown-menu pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end" aria-labelledby="mainHeaderProfile">
-                    <li><a class="dropdown-item d-flex" href="/"><i class="ti ti-user-circle fs-18 me-2 op-7"></i>Profile</a></li>
+                    <li><a class="dropdown-item d-flex" href="/"><i class="bx bx-user fs-18 me-2 op-7"></i>Profile</a></li>
 
-                    <li><a class="dropdown-item d-flex" href="sign-in-cover.html"><i class="ti ti-logout fs-18 me-2 op-7"></i>Log Out</a></li>
+                    <li><a class="dropdown-item d-flex" href="sign-in-cover.html"><i class="bx bx-log-out fs-18 me-2 op-7"></i>Log Out</a></li>
                 </ul>
             </div>
             <!-- End::header-element -->

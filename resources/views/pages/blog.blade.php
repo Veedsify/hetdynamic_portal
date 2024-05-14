@@ -26,9 +26,10 @@
                     <h1 class="page-title fw-semibold fs-18 mb-0">Blogs</h1>
                     <div class="ms-md-1 ms-0">
                         <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Blogs</li>
+                            <ol class="breadcrumb align-items-center mb-0">
+                                <li ><a href="javascript:void(0);" class="text-primary">Home</a></li>
+                                <i class="bx bx-chevron-right fs-18"></i>
+                                <li class=" " aria-current="page">Blogs</li>
                             </ol>
                         </nav>
                     </div>
@@ -53,7 +54,7 @@
                                     <div class="btn-list">
                                         <button type="button" class="btn btn-sm btn-secondary btn-wave">Filters</button>
                                         <a href="javascript:void(0);" class="btn btn-sm btn-wave btn-primary waves-effect waves-light" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Sort By<i class="ri-arrow-down-s-line align-middle ms-1 d-inline-block"></i>
+                                            Sort By<i class="bi bi-chevron-down align-middle ms-1 d-inline-block"></i>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
                                             <li><a class="dropdown-item" href="javascript:void(0);">New Collection</a></li>
