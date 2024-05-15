@@ -35,7 +35,7 @@
 
                 <!-- Start::row-1 -->
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-5">
                         <!-- Start:: row-2 -->
                 <div class="row">
                     <div class="col-xl-12">
@@ -46,9 +46,13 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <form data-single="true" method="post" action="https://httpbin.org/post" class="dropzone">
-                                    <button class="btn btn-primary d-block ms-auto">Upload </button>    
+                                <form data-single="true" method="post" action="https://httpbin.org/post" class="dropzone ">
+
+
+
                                 </form>
+                                <button class="btn btn-primary d-block ms-auto mt-2">Upload </button>
+
                             </div>
                         </div>
                     </div>
@@ -56,7 +60,7 @@
                 <!-- End:: row-2 -->
                     </div>
                     <!--End::row-1 -->
-                    <div class="col-md-8 border">
+                    <div class="col-lg-7 border">
 
                         <div class="col-xl-12">
                             <div class="card custom-card">
@@ -70,7 +74,7 @@
                                         </div>
                                         <div class="dropdown">
                                             <a href="javascript:void(0);" class="btn btn-primary btn-sm btn-wave waves-effect waves-light" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Sort By <i class="bi bi-chevron-down align-middle ms-1 d-inline-block"></i>
+                                                Sort By <i class="bx bx-filter align-middle ms-1 d-inline-block"></i>
                                             </a>
                                             <ul class="dropdown-menu" role="menu">
                                                 <li><a class="dropdown-item" href="javascript:void(0);">New</a></li>

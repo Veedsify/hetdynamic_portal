@@ -54,7 +54,7 @@
                                     <div class="btn-list">
                                         <button type="button" class="btn btn-sm btn-secondary btn-wave">Filters</button>
                                         <a href="javascript:void(0);" class="btn btn-sm btn-wave btn-primary waves-effect waves-light" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Sort By<i class="bi bi-chevron-down align-middle ms-1 d-inline-block"></i>
+                                            Sort By<i class="bi bi-filter align-middle ms-1 d-inline-block"></i>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
                                             <li><a class="dropdown-item" href="javascript:void(0);">New Collection</a></li>

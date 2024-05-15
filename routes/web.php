@@ -15,6 +15,10 @@ Route::get('/universities', function () {
     return view('pages.universities');
 })->name('universities');
 
+Route::get('/country', function () {
+    return view('pages.country');
+})->name('country');
+
 Route::get('/services', function () {
     return view('pages.services');
 })->name('services');

@@ -9,6 +9,10 @@
             <ul class="main-menu ">
 
 
+<!-- Start::slide__category -->
+<li class="slide__category d-lg-none"><span class="category-name">Main</span></li>
+<!-- End::slide__category -->
+
 
 
 
@@ -25,7 +29,7 @@
 
                 <!-- Start::slide -->
                 <li class="slide ">
-                    <a href="{{ route('universities') }}" class="side-menu__item">
+                    <a href="{{ route('country') }}" class="side-menu__item">
                         <i class="bx bxs-graduation side-menu__icon"></i>
                         Universites
                     </a>
