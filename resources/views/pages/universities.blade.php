@@ -52,24 +52,18 @@
                 <!-- Start::row-1 -->
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="card custom-card">
-                            <div class="card-body">
-
-
-                <!-- Start:: row-2 -->
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="tab-content">
-                            <div class="tab-pane show active p-2 border-0" id="nft-all" role="tabpanel">
+                        <!-- Start:: row-2 -->
+                        <div class="row">
+                            <div class="col-xl-12">
 
                                 <div class="row">
-                                    <div class="  col-lg-4 col-md-4 col-sm-6 col-12    rounded">
-                                        <div class="card custom-card border">
-                                            <img src="../assets/images/nft-images/27.png" class="card-img-top" alt="...">
+                                    <div class="  col-lg-4  col-md-6 col-12    rounded">
+                                        <div class="card custom-card border  p-md-4 p-3">
+                                            <img src="../assets/images/nft-images/7.png" class="card-img-top " alt="...">
 
-                                            <div class="card-body ">
+                                            <div class="card-body px-0">
 
-                                                <p class="mb-0 text-fixed-white nft-auction-time">
+                                                <p class="mb-0 text-fixed-white nft-auction-time " style="right: 50px;">
                                                     LATVIA University
                                                 </p>
                                                 <p class="fs-15 fw-semibold mb-2"><a href="javascript:void(0);">Air Training Group</a></p>
@@ -78,7 +72,7 @@
                                                 </div>
                                                 <div class="d-grid">
 
-                                                        <a href="/" type="button" class="btn btn-primary-light btn-wave waves-effect waves-light">View University <i class="bi bi-arrow-up-right"></i></a>
+                                                        <a href="{{route('universities').('/details')}}" type="button" class="btn btn-primary-light btn-wave waves-effect waves-light">View University <i class="bi bi-arrow-up-right"></i></a>
 
                                                 </div>
                                             </div>
@@ -86,20 +80,10 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
                         </div>
-                    </div>
-                </div>
                 <!-- End:: row-2 -->
-
             </div>
         </div>
-    </div>
-</div>
 <!--End::row-1 -->
 
 <nav aria-label="Page navigation">

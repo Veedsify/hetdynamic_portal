@@ -11,9 +11,17 @@ Route::get('/profile', function () {
     return view('pages.profile');
 })->name('profile');
 
+
+// universities
 Route::get('/universities', function () {
     return view('pages.universities');
 })->name('universities');
+
+Route::get('/universities/{details}', function () {
+    return view('pages.universities-details');
+})->name('universities.details');
+
+
 
 Route::get('/country', function () {
     return view('pages.country');
@@ -34,6 +42,7 @@ Route::get('/application', function () {
 Route::get('/application/{details}', function () {
     return view('pages.application-details');
 })->name('application.details');
+
 
 Route::get('/document', function () {
     return view('pages.document');
