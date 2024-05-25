@@ -128,7 +128,7 @@
                                                     </div>
                                                     <div class="d-grid my-4  text-center  ">
 
-                                                        <a href="{{route('universities').('/details')}}" type="button" class="btn fs-15 btn-primary-light col-lg-4 col-12 rounded-0 mx-auto btn-wave fw-semibold waves-effect waves-light py-3">Apply Now</i></a>
+                                                        <a href="{{route('application.form')}}" type="button" class="btn fs-15 btn-primary-light col-lg-4 col-12 rounded-0 mx-auto btn-wave fw-semibold waves-effect waves-light py-3">Apply Now</i></a>
 
                                                 </div>
 
