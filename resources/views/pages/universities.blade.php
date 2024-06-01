@@ -1,11 +1,8 @@
 ﻿@extends('../layout/index')
 @section('content')
-
-
-
     <!-- Loader -->
     <div id="loader">
-        <img src="{{ asset('assets/images/media/loader.svg')}}" alt="">
+        <img src="{{ asset('assets/images/media/loader.svg') }}" alt="">
     </div>
     <!-- Loader -->
 
@@ -14,7 +11,7 @@
         <x-header />
         <!-- /app-header -->
         <!-- Start::app-sidebar -->
-       <x-aside />
+        <x-aside />
         <!-- End::app-sidebar -->
 
         <!-- Start::app-content -->
@@ -27,16 +24,16 @@
                     <div class="ms-md-1 ms-0">
                         <nav>
                             <ol class="breadcrumb align-items-center mb-0">
-                                <li ><a href="javascript:void(0);" class="text-primary">Home</a></li>
+                                <li><a href="javascript:void(0);" class="text-primary">Home</a></li>
                                 <i class="bx bx-chevrons-right fs-18"></i>
-                                <li  aria-current="page">Universtities</li>
+                                <li aria-current="page">Universtities</li>
                             </ol>
                         </nav>
                     </div>
                 </div>
                 <!-- Page Header Close -->
-                 <!-- Start::row-1 -->
-                 <div class="row">
+                <!-- Start::row-1 -->
+                <div class="row">
                     <div class="col-xl-12">
                         <div class="card custom-card">
                             <div class="card-body">
@@ -48,58 +45,59 @@
                     </div>
                 </div>
                 <!--End::row-1 -->
-
+                <div class="row">
+                    <h2>
+                        {{ $universities->count() == 0 ? 'No University Found' : '' }}
+                    </h2>
+                </div>
                 <!-- Start::row-1 -->
                 <div class="row">
                     <div class="col-xl-12">
                         <!-- Start:: row-2 -->
                         <div class="row">
                             <div class="col-xl-12">
-
                                 <div class="row">
-                                    <div class="  col-lg-4  col-md-6 col-12    rounded">
-                                        <div class="card custom-card border  p-md-4 p-3">
-                                            <img src="../assets/images/nft-images/7.png" class="card-img-top " alt="...">
+                                    @foreach ($universities as $university)
+                                        <div class=" col-lg-4  col-md-6 col-12    rounded">
+                                            <div class="card custom-card border  p-md-4 p-3">
+                                                <img src="https://hetdynamic.com/{{ $university->cover }}"
+                                                    class="card-img-top " alt="...">
+                                                <div class="card-body px-0">
 
-                                            <div class="card-body px-0">
+                                                    <p class="mb-0 text-fixed-white nft-auction-time " style="right: 50px;">
+                                                        {{ Str::limit($university->name, 20) }}
+                                                    </p>
+                                                    <p class="fs-15 fw-semibold mb-2"><a href="javascript:void(0);">
+                                                            {{ $university->name }}
+                                                        </a></p>
+                                                    <div class=" mb-4">
+                                                        <p>
+                                                            {{ Str::limit($university->description, 150) }}
+                                                        </p>
+                                                    </div>
+                                                    <div class="d-grid">
 
-                                                <p class="mb-0 text-fixed-white nft-auction-time " style="right: 50px;">
-                                                    LATVIA University
-                                                </p>
-                                                <p class="fs-15 fw-semibold mb-2"><a href="javascript:void(0);">Air Training Group</a></p>
-                                                <div class=" mb-4">
-                                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque iusto numquam placeat iste sunt velit aspernatur, quis culpa autem praesentium quos ex cum dolore voluptates distinctio ad minus rem asperiores!</p>
-                                                </div>
-                                                <div class="d-grid">
+                                                        <a href="{{ route('universities.details', $university->slug) }}"
+                                                            type="button"
+                                                            class="btn btn-primary-light btn-wave waves-effect waves-light">View
+                                                            University <i class="bi bi-arrow-up-right"></i></a>
 
-                                                        <a href="{{route('universities').('/details')}}" type="button" class="btn btn-primary-light btn-wave waves-effect waves-light">View University <i class="bi bi-arrow-up-right"></i></a>
-
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>
-                <!-- End:: row-2 -->
-            </div>
-        </div>
-<!--End::row-1 -->
+                        <!-- End:: row-2 -->
+                    </div>
+                </div>
+                <!--End::row-1 -->
 
-<nav aria-label="Page navigation">
-    <ul class="pagination justify-content-end mb-4">
-        <li class="page-item disabled">
-            <a class="page-link">Previous</a>
-        </li>
-        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
-        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-        <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
-        <li class="page-item">
-            <a class="page-link" href="javascript:void(0);">Next</a>
-        </li>
-    </ul>
-</nav>
-
+                <nav aria-label="Page navigation">
+                    {{ $universities->links('vendor.pagination.bootstrap-5') }}
+                </nav>
 
             </div>
         </div>
@@ -115,8 +113,4 @@
     </div>
     <div id="responsive-overlay"></div>
     <!-- Scroll To Top -->
-
-
-
-
- @endsection
+@endsection

@@ -2,11 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\CheckUserIsAdmin;
-
+use App\Http\Controllers\UniversityController;
 // Users
-Route::get('/', function () {
-    return view('pages.dashboard');
-});
+Route::get('/',[App\Http\Controllers\IndexController::class, 'index'])->name('index');
 
 Route::get('/profile', function () {
     return view('pages.profile');
@@ -14,17 +12,11 @@ Route::get('/profile', function () {
 
 
 // universities
-Route::get('/universities', function () {
-    return view('pages.universities');
-})->name('universities');
+Route::get('/{country}/universities', [UniversityController::class, 'index'])->name('universities');
 
-Route::get('/universities/{details}', function () {
-    return view('pages.universities-details');
-})->name('universities.details');
+Route::get('/university/{slug}',[UniversityController::class, "showUniversity"])->name('universities.details');
 
-Route::get('/country', function () {
-    return view('pages.country');
-})->name('country');
+Route::get('/country', [App\Http\Controllers\CountryController::class, "index"])->name('country');
 
 Route::get('/services', function () {
     return view('pages.services');
@@ -69,7 +61,6 @@ Route::get('/admin/profile', function () {
 Route::get('/admin/universities', function () {
     return view('admin.universities');
 })->name('admin.universities');
-
 
 
 
