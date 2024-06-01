@@ -215,7 +215,7 @@
                          <div class="timeline-loadmore-container">
                             <button class="btn btn-info-transparent btn-loader mx-auto">
                                 <span class="me-2">Loading</span>
-                                <span class="loading"><i class="ri-loader-4-line fs-16"></i></span>
+                                <span class="loading"><i class="bx bx-loader fs-16"></i></span>
                             </button>
                          </div>
                      </div>
